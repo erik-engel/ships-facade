@@ -8,6 +8,11 @@ public class DemoApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
+        ShipMaker shipMaker = new ShipMaker();
+        shipMaker.displayBrig();
+        shipMaker.displayMaW();
+        shipMaker.displaySoL();
     }
+
 
 }
